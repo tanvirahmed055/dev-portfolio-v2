@@ -58,8 +58,20 @@ h1{
 }
 
 .full-stack{
-    border-right: 10px dotted;
+    border-right: 10px solid;
     border-image: linear-gradient(red, violet);
     border-image-slice: 1;
+}
+ 
 
+.baby-web{
+    border-right: 10px solid;
+    border-image: linear-gradient(rgb(117, 10, 131), rgb(160, 185, 14));
+    border-image-slice: 1;
+}
+
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
